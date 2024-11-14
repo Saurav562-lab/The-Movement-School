@@ -27,15 +27,14 @@
       justify-content: center;
       align-items: center;
       background-color: #1a1a1a;
+      border-bottom: 2px solid #FFD700;
     }
-    /* Logo image */
     .logo {
       max-width: 150px;
       margin-right: 20px;
     }
-    /* Title and slogan */
     .title {
-      font-size: 2rem;
+      font-size: 2.5rem;
       color: #FFD700;
       font-weight: bold;
     }
@@ -45,7 +44,7 @@
     }
     /* Main content section */
     .content {
-      max-width: 800px;
+      max-width: 1000px;
       padding: 20px;
       text-align: center;
     }
@@ -59,9 +58,42 @@
       line-height: 1.6;
       color: #ccc;
     }
+    /* Enroll button styling */
+    .enroll-button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #FFD700;
+      color: #121212;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .enroll-button:hover {
+      background-color: #e6c200;
+    }
+    /* Section styling */
+    .section {
+      margin-top: 40px;
+      padding: 20px;
+      border-radius: 8px;
+      background-color: #1a1a1a;
+    }
+    .section h2 {
+      font-size: 2rem;
+      color: #FFD700;
+      margin-bottom: 10px;
+    }
+    .section p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #ccc;
+    }
     /* Footer styling */
     footer {
-      margin-top: 20px;
+      margin-top: 40px;
       padding: 10px;
       background-color: #1a1a1a;
       color: #9acd32;
@@ -84,7 +116,29 @@
   <!-- Main content section -->
   <div class="content">
     <h1>Welcome to The Movement School</h1>
-    <p>We are a dedicated team of Strength and Conditioning Coaches, Fitness Coaches, Nutritionists, and Psychologists. Our mission is to work together with you to achieve realistic lifestyle improvements that lead to long-term success. Whether your goal is weight management, physical conditioning, or managing medical conditions, we're here to support you every step of the way.</p>
+    <p>We are a team of Strength and Conditioning Coaches, Fitness Coaches, Nutritionists, and Psychologists dedicated to helping you achieve realistic lifestyle improvements. Our mission is to work together with you to reach your goals, whether it’s weight management, physical conditioning, or managing medical conditions.</p>
+    <a href="#enroll" class="enroll-button">Enroll Now</a>
+  </div>
+
+  <!-- Sections describing each department -->
+  <div class="section">
+    <h2>Strength and Conditioning Coaches</h2>
+    <p>Our Strength and Conditioning Coaches focus on enhancing your physical performance through targeted exercises, helping you build strength, increase endurance, and improve overall fitness.</p>
+  </div>
+
+  <div class="section">
+    <h2>Fitness Coaches</h2>
+    <p>Our Fitness Coaches provide personalized workout plans, monitor your progress, and offer guidance to keep you motivated. They ensure you achieve the best results while staying safe.</p>
+  </div>
+
+  <div class="section">
+    <h2>Nutritionists</h2>
+    <p>Our Nutritionists develop customized dietary plans that align with your health and fitness goals. They guide you on how to fuel your body properly, promoting sustainable eating habits.</p>
+  </div>
+
+  <div class="section">
+    <h2>Psychologists</h2>
+    <p>Our Psychologists provide support and guidance to help you overcome mental barriers, build resilience, and adopt a positive mindset towards your health and fitness journey.</p>
   </div>
 
   <!-- Footer section -->
